@@ -364,6 +364,7 @@ a {
   }
 
   .decoration1-img {
+    z-index: 0;
     position: absolute;
     width: 70vw;
 
@@ -489,5 +490,13 @@ a {
 @media (min-width: 1024px) {
   .phone-illustration {
     height: 550px;
+  }
+}
+
+@media (min-width: 1750px) {
+  .decoration1-img {
+    /* height: 550px; */
+    height: 1160px;
+    width: 1220px;
   }
 }
